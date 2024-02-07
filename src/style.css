@@ -1,15 +1,51 @@
 body {
   background-color: ;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  /////put in image////
 }
 
 .container {
+  background-color: #ed9f66;
   margin: 120px auto;
   max-width: 600px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 h1 {
   text-align: center;
   line-height: 1.5;
+  font-size: 38px;
+}
+
+form {
+  display: flex;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.input {
+  border-radius: 5px;
+  max-width: 400px;
+  width: 500px;
+  height: 30px;
+}
+
+.submit {
+  color: ;
+  border-radius: 5px;
+  width: 100px;
+  height: 36px;
+}
+
+.result {
+  font-size: 20px;
+  padding: 20px;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 10px;
 }
