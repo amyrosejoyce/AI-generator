@@ -1,15 +1,16 @@
 body {
-  background-color: ;
-  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  background-color: #03001e;
+  font-family: Comfortaa - 700 Outfit, sans-serif;
   /////put in image////
 }
 
 .container {
-  background-color: #ed9f66;
+  background-color: #1d1a35;
   margin: 120px auto;
   max-width: 600px;
-  border: 2px solid black;
+  border: 5px solid plum;
   border-radius: 5px;
+  color: plum;
 }
 
 h1 {
@@ -37,11 +38,12 @@ form {
   border-radius: 5px;
   width: 100px;
   height: 36px;
+  font-family: Comfortaa - 700;
 }
 
 .result {
   font-size: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 footer {
