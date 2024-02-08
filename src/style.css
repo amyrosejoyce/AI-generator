@@ -1,7 +1,7 @@
 body {
-  background-color: #03001e;
   font-family: Comfortaa - 700 Outfit, sans-serif;
-  /////put in image////
+
+  background-color: #03001e;
 }
 
 .container {
@@ -11,6 +11,9 @@ body {
   border: 5px solid plum;
   border-radius: 5px;
   color: plum;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/352/original/background.jpg?1707350660");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
