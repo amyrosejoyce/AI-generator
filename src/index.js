@@ -18,7 +18,9 @@ function showFact(event) {
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   let factElement = document.querySelector("#fact");
-  factElement.innerHTML = "Generating a fact for you.. please wait";
+  factElement.classList.remove("hidden");
+  factElement.innerHTML = `<div class="blink">Generating a fact for you about ${userInputElement.value} 🤖</div>`;
+
   console.log("generating fact");
   console.log("prompt");
   console.log("context");
