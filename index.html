@@ -16,8 +16,9 @@
       <h1> AI Fact Finder</h1>
     </header>
     <main>
+      <div class="form-container">
       <form id="fact-generator">
-        <input class="Input" 
+        <input class="input" 
           type="text"
           placeholder="Enter something here...."
           autofocus
@@ -25,9 +26,11 @@
           id="fact-input"/>
         <input type="submit" class="submit" />
       </form>
-      <h3> e.g: Dinosaurs, cats, space...</h3>
+      <small class="hint"> e.g: Dinosaurs, cats, space...</small>
+      </div>
+      
     
-      <div class="result"  id="fact"></div>
+      <div class="result hidden"  id="fact"></div>
     </main>
 
     <footer>
