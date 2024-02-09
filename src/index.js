@@ -1,7 +1,7 @@
 function showFact(event) {
-  alert("hello");
+  event.preventDefault();
+  let factElement = document.querySelector("#search-output");
+  console.log("button clicked!");
 }
-
-let searchField = document.querySelector("#search-input");
 let searchButton = document.querySelector("#search-button");
 searchButton.addEventListener("click", showFact);
