@@ -49,6 +49,10 @@ form {
   padding: 10px;
 }
 
+.result strong {
+  color: white;
+}
+
 footer {
   font-size: 10px;
   text-align: center;
