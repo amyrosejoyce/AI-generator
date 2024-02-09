@@ -1,7 +1,12 @@
 function showFact(event) {
   event.preventDefault();
-  let factElement = document.querySelector("#search-output");
-  console.log("button clicked!");
+
+  new Typewriter("#fact", {
+    strings: "generating fact",
+    autoStart: true,
+    cursor: "",
+  });
 }
-let searchButton = document.querySelector("#search-button");
-searchButton.addEventListener("click", showFact);
+
+let factFormElement = document.querySelector("#fact-generator");
+factFormElement.addEventListener("submit", showFact);
