@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> AI Fact Finder</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   
   </head>
@@ -14,16 +15,17 @@
       <h1> AI Fact Finder</h1>
     </header>
     <main>
-      <form action="">
-        <input class="input"
+      <form id="fact-generator">
+        <input class="input" 
           type="text"
           placeholder="Enter something here...."
           autofocus
           required />
         <input type="submit" class="submit" />
       </form>
-      <br>
-      <div class="result">i.e: Dinosaurs, cats, space....</div>
+      <h3> e.g: Dinosaurs, cats, space...</h3>
+    
+      <div class="result"  id="fact"></div>
     </main>
 
     <footer>
